@@ -1,5 +1,6 @@
 rest:
   - resource: http://<gateway_ip>/get_livedata_info
+    scan_interval: 60
     sensor:
       - name: "outdoortemp"
         unique_id: "outdoortemp"
