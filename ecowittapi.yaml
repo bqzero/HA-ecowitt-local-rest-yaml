@@ -1,5 +1,5 @@
 rest:
-  - resource: http://192.168.1.102/get_livedata_info
+  - resource: http://<gateway_ip>/get_livedata_info
     sensor:
       - name: "outdoortemp"
         unique_id: "outdoortemp"
