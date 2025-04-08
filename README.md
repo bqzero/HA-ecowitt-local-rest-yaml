@@ -17,3 +17,13 @@ last but not least restart your HA to get the new entities.
 
 Be aware that the method used here is depending on the gateway type you have and might change when upgrading firmware as it is
 not an officially supported and undocumented way to retrieve the values.
+
+Lovelace example using additional cards from HACS
+
+[custom:mini-graph-card](https://github.com/kalkih/mini-graph-card)
+[custom:compass-card](https://github.com/tomvanswam/compass-card)
+[custom:tempometer-gauge-card](https://github.com/SNoof85/lovelace-tempometer-gauge-card-deprecated)
+[custom:uv-index-card](https://github.com/t1gr0u/uv-index-card)
+
+![Top](https://github.com/bqzero/HA-ecowitt-local-rest-yaml/blob/main/top.png?raw=true)
+![Bottom](https://github.com/bqzero/HA-ecowitt-local-rest-yaml/blob/main/bottom.png?raw=true)
