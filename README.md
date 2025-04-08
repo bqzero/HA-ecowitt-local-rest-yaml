@@ -14,3 +14,6 @@ homeassistant:
   packages: !include_dir_named integrations
 
 last but not least restart your HA to get the new entities.
+
+Be aware that the method used here is depending on the gateway type you have and might change when upgrading firmware as it is
+not an officially supported and undocumented way to retrieve the values.
